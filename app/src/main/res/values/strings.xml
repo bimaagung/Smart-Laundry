@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Smart Laundry</string>
+    <string name="title_laundry"><u> Smart Laundry </u></string>
+    <string name="title_activity_maps_laundry">Map</string>
+</resources>

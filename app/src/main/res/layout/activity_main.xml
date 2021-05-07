@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffe100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    //HEADER
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/smartlaundry_foreground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/title_laundry"
+            android:textColor="#FF0000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/logomaps_foreground"/>
+
+            <Button
+                android:id="@+id/buttonMap1"
+                android:layout_gravity="center_vertical"
+                android:text="Pencarian Laundry"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:background="@drawable/buttonmap"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/logobuku_foreground"/>
+
+            <Button
+                android:id="@+id/buttonMap2"
+                android:layout_gravity="center_vertical"
+                android:text="Petunjuk"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:background="@drawable/buttonbuku"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/logowong_foreground"/>
+
+            <Button
+                android:id="@+id/buttonMap"
+                android:layout_gravity="center_vertical"
+                android:text="Tentang"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:background="@drawable/buttontentang"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
